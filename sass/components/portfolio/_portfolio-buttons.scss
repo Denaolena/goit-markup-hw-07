@@ -1,21 +1,22 @@
-.section-portfolio {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
   color: $primary-text-color;
 }
-.potfolio-btns {
+.potfolio__btns {
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
-.potfolio-btns .item {
+
+.portfolio__item {
   margin-right: 8px;
   text-align: center;
   min-width: 73px;
   border-radius: 4px;
   background-color: $primary-bg-color;
 }
-.highlighter {
+.portfolio__highlighter {
   padding: 6px 22px;
   border: 1px solid transparent;
   font-weight: 500;
@@ -26,8 +27,8 @@
   color: $primary-text-color;
   transition: background-color 250ms $timing-function, transform 250ms $timing-function;
 }
-.potfolio-btns .highlighter:hover,
-.potfolio-btns .highlighter:focus {
+.potfolio__btns .portfolio__highlighter:hover,
+.potfolio__btns .portfolio__highlighter:focus {
   background-color: $accent-color;
   color: $primary-bg-color;
   border-radius: 4px;

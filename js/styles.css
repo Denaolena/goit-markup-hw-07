@@ -296,7 +296,7 @@ img {
   background-color: transparent;
   cursor: pointer;
 }
-.modal-button:hover .icon-close {
+.modal-button:hover {
   fill: var(--accent-color);
 }
 .form-modal {
